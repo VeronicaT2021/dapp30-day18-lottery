@@ -1,0 +1,7 @@
+.secrets
+
+# dependencies
+node_modules/
+
+# truffle compile output
+client/src/contracts
