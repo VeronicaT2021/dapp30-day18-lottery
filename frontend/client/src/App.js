@@ -105,7 +105,7 @@ function App() {
       <h1 className="text-center">Lottery</h1>
 
       <p>House Fee: {houseFee} </p>
-      <p>State: {bet.state}</p>
+      <p>State: {states[bet.state]}</p>
 
       {bet.state === "1" ? (
         <>
